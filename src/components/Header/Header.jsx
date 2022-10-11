@@ -24,7 +24,7 @@ const Header = () => {
                     <li className="nav__item">
                         <a href="#about" className="nav__link">
                             <i className="fa-solid fa-user nav__icon"></i>
-                            About
+                            Sobre mim
                         </a>
                     </li>
                     
@@ -35,23 +35,23 @@ const Header = () => {
                         </a>
                     </li>
 
-                    <li className="nav__item">
+                    {/* <li className="nav__item">
                         <a href="#services" className="nav__link">
                             <i className="fa-solid fa-briefcase nav__icon"></i>
                             Services
                         </a>
-                    </li>
+                    </li> */}
 
                     <li className="nav__item">
                         <a href="#portfolio" className="nav__link">
                         <i className="fa-solid fa-image nav__icon"></i>
-                            Portifólio
+                            Portfólio
                         </a>
                     </li>
                     <li className="nav__item">
                         <a href="#contact" className="nav__link">
                         <i className="fa-solid fa-envelope nav__icon"></i>
-                            Contact
+                            Contato
                         </a>
                     </li>
                 </ul>
