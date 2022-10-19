@@ -21,12 +21,12 @@ const Contact = () => {
 
     return (
         <section className="contact section" id="contact">
-            <h2 className="section__title">Get in toutch</h2>
-            <span className="section__subtitle">Contact Me</span>
+            <h2 className="section__title">Entre em contato</h2>
+            <span className="section__subtitle">Formulário abaixo</span>
 
             <div className="contact__container container grid">
                 <div className="contact__content">
-                    <h3 className="contact__title">Talk to me</h3>
+                    <h3 className="contact__title">Fale comigo</h3>
 
                     <div className="contact__info">
                         <div className="contact__card">
@@ -34,7 +34,7 @@ const Contact = () => {
 
                             <h3 className="contact__card-title">E-mail</h3>
                             <span className="contact__card-data">matheus.amancio01@gmail.com</span>
-                            <a href="mailto:matheus.amancio01@gmail.com" className="contact__button">Write me{" "}
+                            <a href="mailto:matheus.amancio01@gmail.com" className="contact__button">Me escreva{" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
@@ -44,7 +44,7 @@ const Contact = () => {
 
                             <h3 className="contact__card-title">Whatsapp</h3>
                             <span className="contact__card-data">(81) 98515-5316</span>
-                            <a href="https://api.whatsapp.com/send?phone=5581985155316&text=Gostaria de receber mais informações!" className="contact__button" target="_blank" rel="noreferrer">Write me{" "}
+                            <a href="https://api.whatsapp.com/send?phone=5581985155316&text=Gostaria de receber mais informações!" className="contact__button" target="_blank" rel="noreferrer">Me escreva{" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
 
                 <div className="contact__content">
-                    <h3 className="contact__title">Write me your projects</h3>
+                    <h3 className="contact__title">Me envie uma mensagem</h3>
 
                     <form ref={form} onSubmit={sendEmail} className="contact__form">
                         <div className="contact__form-div">
@@ -71,13 +71,13 @@ const Contact = () => {
                         </div>
 
                         <div className="contact__form-div contact__form-area">
-                            <label className="contact__form-tag">Project</label>
+                            <label className="contact__form-tag">Mensagem</label>
                             <textarea 
                                 name="project" 
                                 cols="30" 
                                 rows="10" 
                                 className="contact__form-input" 
-                                placeholder="Digite seu projeto"
+                                placeholder="Digite sua mensagem"
                             ></textarea>
                         </div>
                         <button href="#contact" className="button button--flex">
