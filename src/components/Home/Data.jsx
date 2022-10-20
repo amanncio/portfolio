@@ -55,7 +55,7 @@ const Data = () => {
           </svg>
         </h1>
         <h3 className="home__subtitle">Full-Stack Developer</h3>
-        <p className="home__description">Me chamo Matheus Amâncio, tenho 24 anos e sou recifense. Estudo programação à 2 anos, e tenho como objetivo ingressar no mercado de trabalho como Desenvolvedor React!</p>
+        <p className="home__description">Me chamo Matheus Amâncio, tenho 24 anos e sou recifense. Estudo programação à 2 anos, e tenho como objetivo ingressar no mercado de trabalho como Desenvolvedor React.</p>
 
         <a href="#contact" className="button button--flex">
           Fale comigo!

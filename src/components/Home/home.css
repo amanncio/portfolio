@@ -59,7 +59,7 @@
 }
 
 .home__img {
-    background: url(../../assets/profile.jpg);
+    background: url(../../assets/foto34.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -83,7 +83,6 @@
     100% {
         border-radius: 60% 40% 30% 70%/60%  30% 70% 40%;
     }
-
 }
 
 .home__scroll {
@@ -119,7 +118,6 @@
 .home__scroll-arrow {
     font-size: 1rem;
     color: var(--title-color);
-    
 }
 
 /*=============== BREAKPOINTS ===============*/

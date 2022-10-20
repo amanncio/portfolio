@@ -147,7 +147,7 @@ const Qualification = () => {
 
                             <div>
                                 <h3 className="qualification__title">Curso Java Web Full-Stack - CH(447)</h3>
-                                <span className="qualification__subtitle">Generation Brasil</span>
+                                <span className="qualification__subtitle">Generation Brasil - Bootcamp</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i> 09/2021 - 12/2021
                                 </div>

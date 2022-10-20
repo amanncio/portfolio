@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
 import Info from './Info';
-import AboutImg from "../../assets/about.jpg";
+import AboutImg from "../../assets/foto34.jpg";
 import Cv  from "../../assets/Matheus-Amancio-Cv.pdf";
 
 const About = () => {
@@ -11,13 +11,12 @@ const About = () => {
         <span className="section__subtitle">Minha apresentação</span>
 
         <div className="about__container container  grid">
-            <img src={AboutImg} alt="" className="about__img" />
+            <img src={AboutImg} alt="Fotografia do Desenvolvedor Matheus Amâncio" className="about__img" />
             
             <div className="about__data">
                 <Info />
                 <p className="about__description">
-                {/* Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out. */}
-                Desenvolvedor Full-Stack em busca de uma oportunidade para ingressar no mercado de trabalho.
+                    Me formei como Auxiliar Veterinário, porém no início de 2021 entrei em transição de carreira pra a área de tecnologia. Atualmente estou no terceiro módulo do curso técnico em Desenvolvimento de Sistemas e sou formado como Desenvolvedor Web Full Stack pela Generation Brasil. Tenho interesse por causas animais e ambientais, inclusão social e acessibilidade com a LIBRAS. Minha vontade é um dia levar meus desejos pessoais para minha carreira profissional, e acrescentar tanto à empresa quanto para o mundo.
                 </p>
                 <a href={Cv} download="" className="button button--flex">Download CV
                     <svg

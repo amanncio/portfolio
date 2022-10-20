@@ -43,9 +43,9 @@ const Header = () => {
                         </li> */}
 
                         <li className="nav__item">
-                            <a href="#portfolio" className="nav__link">
+                            <a href="#projects" className="nav__link">
                             <i className="fa-solid fa-image nav__icon"></i>
-                                Portfólio
+                                Projetos
                             </a>
                         </li>
                         <li className="nav__item">
@@ -55,7 +55,7 @@ const Header = () => {
                             </a>
                         </li>
                     </ul>
-                    <i className="fa-solid fa-x nav__close" onClick={() => setToggle(!  toggle)}></i>
+                    <i className="fa-solid fa-x nav__close" onClick={() => setToggle(!toggle)}></i>
                 </div>
                 <div className="nav__toggle" onClick={() => setToggle(!toggle)}>
                     <i className="fa-solid fa-table-cells-large"></i>
